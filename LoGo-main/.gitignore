@@ -1,9 +1,0 @@
-__pycache__
-data/
-save/
-*.un~
-*.sh
-*.xlsx
-*.csv
-*.ipynb
-*.ipynb_checkpoints
