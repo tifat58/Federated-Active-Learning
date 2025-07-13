@@ -1,0 +1,2 @@
+[00:46:27.513] Namespace(fl_method='FedAvg', al_method='FEAL', dataset='FedISIC', max_round=100, al_round=5, query_model='both', query_ratio=0.0, budget=500, batch_size=32, base_lr=0.0005, deterministic=False, seed=0, display_freq=20, kl_weight=0.01, annealing_step=10, n_neighbor=5, cosine=0.85)
+[00:46:27.778] Loaded  from checkpoint '/Users/adityabikrambiswas/Desktop/DFKI_Thesis/Research_Papers_Documents/Code/Data/efficientnet_b0_rwightman-3dd342df.pth'
