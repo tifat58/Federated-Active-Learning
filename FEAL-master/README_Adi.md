@@ -1,3 +1,5 @@
+To prepare the dataset, please the images to proper format using prepare_dataset.py. Then please update the paths and run fedisic_split.py.
+
 CUDA_VISIBLE_DEVICES=0 python main_cls_al.py \
   --dataset FedISIC \
   --al_method FEAL \
