@@ -9,10 +9,8 @@ class EfficientNetB0(nn.Module):
     def __init__(self, num_classes = 8, pretrained = True):
         super(EfficientNetB0, self).__init__()
 
-        #self.efficientnet = timm.create_model('efficientnet_b0', pretrained=False, checkpoint_path='/Users/adityabikrambiswas/Desktop/DFKI_Thesis/Research_Papers_Documents/Code/Data/efficientnet_b0_rwightman-3dd342df.pth')#checkpoint_path='../FAL/model/efficientnet_b0_ra-3dd342df.pth')
-        #added
+        #self.efficientnet = timm.create_model('efficientnet_b0', pretrained=True, checkpoint_path='../FAL/model/efficientnet_b0_ra-3dd342df.pth')
         self.efficientnet = timm.create_model('efficientnet_b0', pretrained=True)
-        #added
         num_ftrs = self.efficientnet.classifier.in_features
         self.efficientnet.reset_classifier(0)
         self.fc = nn.Linear(num_ftrs, num_classes)

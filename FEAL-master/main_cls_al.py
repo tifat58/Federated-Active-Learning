@@ -14,9 +14,6 @@ import torch.backends.cudnn as cudnn
 from torch.utils.data import DataLoader
 from torch.utils.data.sampler import SubsetRandomSampler
 
-from data.prepare_dataset_fedisic import load_fedisic_splits
-from data.dataset_fedisic import FedISICDataset
-
 from data.dataset import generate_dataset
 
 from utils.fed_merge import FedAvg, FedUpdate
@@ -29,6 +26,8 @@ from utils.utils import cnt_sample_num
 import pdb
 
 import pickle
+
+from datetime import datetime  # (add this at the top if not already)
 
 
 parser = argparse.ArgumentParser()
@@ -64,7 +63,6 @@ def worker_init_fn(worker_id):
 
 if __name__ == '__main__':
     # log
-    start_time = time.time()
     localtime = time.localtime(time.time())
     ticks = '{:>02d}{:>02d}{:>02d}{:>02d}{:>02d}'.format(localtime.tm_mon, localtime.tm_mday, localtime.tm_hour, localtime.tm_min,localtime.tm_sec)
 
@@ -77,6 +75,8 @@ if __name__ == '__main__':
     logging.basicConfig(filename=snapshot_path+"/log.txt", level=logging.INFO, format='[%(asctime)s.%(msecs)03d] %(message)s', datefmt='%H:%M:%S')
     logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
     logging.info(str(args))
+    start_time = datetime.now()
+    logging.info(f"Start Time: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
     # init
     dataset = args.dataset
@@ -131,35 +131,11 @@ if __name__ == '__main__':
     local_train_loaders = []
     local_test_loaders = []
 
-    #added to include metadata
-    splits_path = '/home/student_account/Desktop/Aditya/FEAL-master/data/data_split/splits'
-    data_root = '/home/student_account/Desktop/Aditya/FEAL-master/data/FedISIC_npy'
-
-    csv_train = os.path.join(splits_path, 'train.csv')
-    csv_test = os.path.join(splits_path, 'test.csv')
-
-    full_train_dataset = FedISICDataset(csv_file=csv_train, data_root=data_root)
-    full_test_dataset = FedISICDataset(csv_file=csv_test, data_root=data_root)
-    #added to include metadata
 
     for client_idx in range(client_num):
         # data
-        #data_train, data_unlabeled, data_test = generate_dataset(dataset=dataset, fl_method=fl_method, client_idx=client_idx, args=args)
+        data_train, data_unlabeled, data_test = generate_dataset(dataset=dataset, fl_method=fl_method, client_idx=client_idx, args=args)
         
-        #added to include metadata
-
-        # filter by client_id
-        client_id = f'client_{client_idx}'
-        # train_idxs = full_train_dataset.data_df[full_train_dataset.data_df['client'] == client_id].index.tolist()
-        # test_idxs = full_test_dataset.data_df[full_test_dataset.data_df['client'] == client_id].index.tolist()
-        train_idxs = full_train_dataset.data_info[full_train_dataset.data_info['client'] == client_id].index.tolist()
-        test_idxs = full_test_dataset.data_info[full_test_dataset.data_info['client'] == client_id].index.tolist()
-        
-        data_train = torch.utils.data.Subset(full_train_dataset, train_idxs)
-        data_unlabeled = data_train  # initially unlabeled is the full train subset
-        data_test = torch.utils.data.Subset(full_test_dataset, test_idxs)
-        #added to include metadata
-
         local_train_data.append(data_train)
         local_unlabeled_data.append(data_unlabeled)
 
@@ -233,7 +209,6 @@ if __name__ == '__main__':
                         num_per_class=num_per_class[client_idx],
                         args=args) 
                 local_schedulers[client_idx].step()
-                torch.cuda.empty_cache() #Clear GPU after each client training
             
 
             client_weight = train_num 
@@ -247,7 +222,6 @@ if __name__ == '__main__':
                     print('AL round {}, FL round {}'.format(al_round_idx+1, round_idx+1), file=f)
 
                 for client_idx in range(client_num):
-                    torch.cuda.empty_cache()  # Clear GPU cache after each test
                     metric = test(dataset=dataset, model=global_model, dataloader=local_test_loaders[client_idx], client_idx=client_idx)
                     with open(os.path.join(snapshot_path, 'global_test_result.txt'), 'a') as f:
                         if dataset == 'FedISIC':
@@ -302,15 +276,11 @@ if __name__ == '__main__':
         
         save_model_path = os.path.join(snapshot_path + '/model/AL{}_FL{}_global.pth'.format(al_round_idx+1, round_idx+1))
         torch.save(global_model.state_dict(), save_model_path)
-    end_time = time.time()
-    total_time = end_time - start_time
+        end_time = datetime.now()
+        elapsed = end_time - start_time
+        logging.info(f"End Time: {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        logging.info(f"AL Round Duration: {str(elapsed)}")
 
-    time_str = time.strftime("%H:%M:%S", time.gmtime(total_time))
-    print(f"Total time taken: {time_str}")
-
-    with open(os.path.join(snapshot_path, 'global_test_result.txt'), 'a') as f:
-        f.write('\n=== Final Run Time ===\n')
-        f.write(f"Total time taken: {time_str} ({total_time:.2f} seconds)\n")
     writer.close()
 
 

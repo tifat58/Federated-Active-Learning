@@ -5,7 +5,6 @@ from torchvision import transforms as T
 from scipy import ndimage
 import albumentations as A
 from PIL import Image
-from data.dataset_fedisic import FedISICDataset
 
 
 import os
@@ -18,35 +17,35 @@ import pandas as pd
 import pickle
 
 # classification datasets
-# class FedISIC(Dataset):
-#     def __init__(self, fl_method='FedAvg', client_idx=None, mode='train', transform=None):
-#         assert mode in ['train', 'test']
+class FedISIC(Dataset):
+    def __init__(self, fl_method='FedAvg', client_idx=None, mode='train', transform=None):
+        assert mode in ['train', 'test']
 
-#         self.num_classes = 8
-#         self.fl_method = fl_method
-#         self.client_name = ['client1', 'client2', 'client3', 'client4']
-#         self.client_idx = client_idx    # obtain the dataset of client_name[client_idx]
-#         self.mode = mode
-#         self.transform = transform
+        self.num_classes = 8
+        self.fl_method = fl_method
+        self.client_name = ['client1', 'client2', 'client3', 'client4']
+        self.client_idx = client_idx    # obtain the dataset of client_name[client_idx]
+        self.mode = mode
+        self.transform = transform
 
-#         df_path = 'data/data_split/FedISIC/train_test_split.csv'
-#         df = pd.read_csv(df_path,sep='\t')
-#         self.data_list = df[(df['center']==client_idx) & (df['fold']==mode)]
+        df_path = 'data/data_split/FedISIC/train_test_split.csv'
+        df = pd.read_csv(df_path,sep='\t')
+        self.data_list = df[(df['center']==client_idx) & (df['fold']==mode)]
 
-#     def __len__(self):
-#         return len(self.data_list)
+    def __len__(self):
+        return len(self.data_list)
     
-#     def __getitem__(self, idx:int):
-#         img_path = 'Dataset/FedISIC_npy/{}.npy'.format(self.data_list.iloc[idx,0])   # image #added
-#         image = np.load(img_path)
-#         label = self.data_list.iloc[idx,-4] # target
+    def __getitem__(self, idx:int):
+        img_path = '/mnt/sdz/adbi01_data/Aditya/FEAL-original/Dataset/FedISIC_npy/{}.npy'.format(self.data_list.iloc[idx,0])   # image
+        image = np.load(img_path)
+        label = self.data_list.iloc[idx,-4] # target
 
-#         if self.transform is not None:
-#             image = self.transform(image=image)['image']
+        if self.transform is not None:
+            image = self.transform(image=image)['image']
         
-#         image = image.transpose(2, 0, 1).astype(np.float32)
+        image = image.transpose(2, 0, 1).astype(np.float32)
 
-#         return idx, {'image': torch.from_numpy(image.copy()), 'label': torch.tensor(label)}
+        return idx, {'image': torch.from_numpy(image.copy()), 'label': torch.tensor(label)}
 
 
 class Camelyon(Dataset):
@@ -251,96 +250,56 @@ class ToTensor(object):
 
 
 
-# def generate_dataset(dataset, fl_method, client_idx, args):
-#     if dataset == 'FedISIC':
-#         from data.dataset import FedISIC as Med_Dataset
-#         train_transform = A.Compose([
-#                                         A.Rotate(10),
-#                                         A.RandomBrightnessContrast(0.15, 0.1),
-#                                         #A.Flip(p=0.5),
-#                                         #added
-#                                         A.OneOf([
-#                                             A.HorizontalFlip(p=0.5),
-#                                             A.VerticalFlip(p=0.5)
-#                                         ], p=1.0),
-#                                         #added
-#                                         A.CenterCrop(224,224),
-#                                         A.Normalize(always_apply=True)
-#                                     ])
-#         test_transform = A.Compose([
-#                                         A.CenterCrop(224,224),
-#                                         A.Normalize(always_apply=True)
-#                                     ])
-
-#     if dataset == 'FedCamelyon':
-#         from data.dataset import Camelyon as Med_Dataset
-#         train_transform = A.Compose([A.Normalize(always_apply=True)])
-#         test_transform = A.Compose([A.Normalize(always_apply=True)])
-
-#     elif dataset == 'FedPolyp':
-#         from data.dataset import Polyp as Med_Dataset
-#         train_transform = T.Compose([RandomCrop_Polyp((320,320)), ToTensor()])
-#         test_transform = ToTensor()
-        
-#     elif dataset == 'FedProstate':
-#         from data.dataset import Prostate as Med_Dataset
-#         train_transform = T.Compose([RandomCrop((320,320)), ToTensor()])
-#         test_transform = ToTensor()
-
-#     elif dataset == 'FedFundus':
-#         from data.dataset import Fundus as Med_Dataset
-#         train_transform = T.Compose([RandomCrop((320,320)), ToTensor()])
-#         test_transform = ToTensor()
-
-
-#     data_train = Med_Dataset(fl_method=fl_method, 
-#                                 client_idx=client_idx,
-#                                 mode='train',
-#                                 transform=train_transform)
-    
-#     data_unlabeled = Med_Dataset(fl_method=fl_method, 
-#                                     client_idx=client_idx,
-#                                     mode='train',
-#                                     transform=test_transform)  
-
-#     data_test = Med_Dataset(fl_method=fl_method,
-#                                 client_idx=client_idx,
-#                                 mode='test',
-#                                 transform=test_transform)
-                                
-#     return data_train, data_unlabeled, data_test
-
 def generate_dataset(dataset, fl_method, client_idx, args):
     if dataset == 'FedISIC':
-        data_root = '/home/student_account/Desktop/Aditya/FEAL-master/data/FedISIC_npy'
-        split_dir = '/home/student_account/Desktop/Aditya/FEAL-master/data/data_split/splits'
-
-        client_name = f'client_{client_idx + 1}'
-        train_csv = os.path.join(split_dir, 'train.csv')
-        test_csv = os.path.join(split_dir, 'test.csv')
-
-        df_train = pd.read_csv(train_csv)
-        df_test = pd.read_csv(test_csv)
-
-        df_train = df_train[df_train['client'] == client_name]
-        df_test = df_test[df_test['client'] == client_name]
-
-        df_train.to_csv(f'/tmp/train_client{client_idx}.csv', index=False)
-        df_test.to_csv(f'/tmp/test_client{client_idx}.csv', index=False)
-
+        from data.dataset import FedISIC as Med_Dataset
         train_transform = A.Compose([
-            A.HorizontalFlip(p=0.5),
-            A.VerticalFlip(p=0.5),
-            A.CenterCrop(224, 224),
-            A.Normalize()
-        ])
+                                        A.Rotate(10),
+                                        A.RandomBrightnessContrast(0.15, 0.1),
+                                        #A.Flip(p=0.5),
+                                        A.HorizontalFlip(p=0.5),
+                                        A.CenterCrop(224,224),
+                                        A.Normalize(always_apply=True)
+                                    ])
         test_transform = A.Compose([
-            A.CenterCrop(224, 224),
-            A.Normalize()
-        ])
+                                        A.CenterCrop(224,224),
+                                        A.Normalize(always_apply=True)
+                                    ])
 
-        data_train = FedISICDataset(f'/tmp/train_client{client_idx}.csv', data_root, transform=train_transform)
-        data_unlabeled = FedISICDataset(f'/tmp/train_client{client_idx}.csv', data_root, transform=test_transform)
-        data_test = FedISICDataset(f'/tmp/test_client{client_idx}.csv', data_root, transform=test_transform)
+    if dataset == 'FedCamelyon':
+        from data.dataset import Camelyon as Med_Dataset
+        train_transform = A.Compose([A.Normalize(always_apply=True)])
+        test_transform = A.Compose([A.Normalize(always_apply=True)])
 
-        return data_train, data_unlabeled, data_test
+    elif dataset == 'FedPolyp':
+        from data.dataset import Polyp as Med_Dataset
+        train_transform = T.Compose([RandomCrop_Polyp((320,320)), ToTensor()])
+        test_transform = ToTensor()
+        
+    elif dataset == 'FedProstate':
+        from data.dataset import Prostate as Med_Dataset
+        train_transform = T.Compose([RandomCrop((320,320)), ToTensor()])
+        test_transform = ToTensor()
+
+    elif dataset == 'FedFundus':
+        from data.dataset import Fundus as Med_Dataset
+        train_transform = T.Compose([RandomCrop((320,320)), ToTensor()])
+        test_transform = ToTensor()
+
+
+    data_train = Med_Dataset(fl_method=fl_method, 
+                                client_idx=client_idx,
+                                mode='train',
+                                transform=train_transform)
+    
+    data_unlabeled = Med_Dataset(fl_method=fl_method, 
+                                    client_idx=client_idx,
+                                    mode='train',
+                                    transform=test_transform)  
+
+    data_test = Med_Dataset(fl_method=fl_method,
+                                client_idx=client_idx,
+                                mode='test',
+                                transform=test_transform)
+                                
+    return data_train, data_unlabeled, data_test

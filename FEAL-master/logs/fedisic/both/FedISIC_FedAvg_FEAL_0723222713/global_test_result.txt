@@ -1,0 +1,505 @@
+train num: [993, 316, 269, 180]
+AL round 1, FL round 5
+client 0. Balanced acc:	0.26798906610361917
+client 1. Balanced acc:	0.21739088636800616
+client 2. Balanced acc:	0.3127603542003418
+client 3. Balanced acc:	0.2986493639092975
+AL round 1, FL round 10
+client 0. Balanced acc:	0.28782767721526215
+client 1. Balanced acc:	0.24825995000961357
+client 2. Balanced acc:	0.3028572990342919
+client 3. Balanced acc:	0.31279699058138605
+AL round 1, FL round 15
+client 0. Balanced acc:	0.29791872610061243
+client 1. Balanced acc:	0.3133115426520541
+client 2. Balanced acc:	0.46065079241733875
+client 3. Balanced acc:	0.32358257613511593
+AL round 1, FL round 20
+client 0. Balanced acc:	0.32481525627651286
+client 1. Balanced acc:	0.20432609113631997
+client 2. Balanced acc:	0.5268516028431183
+client 3. Balanced acc:	0.3467290105169796
+AL round 1, FL round 25
+client 0. Balanced acc:	0.3158071304975199
+client 1. Balanced acc:	0.3535740989980559
+client 2. Balanced acc:	0.550034165792002
+client 3. Balanced acc:	0.3290004615198182
+AL round 1, FL round 30
+client 0. Balanced acc:	0.31782071076396584
+client 1. Balanced acc:	0.354117797859386
+client 2. Balanced acc:	0.3986756969830033
+client 3. Balanced acc:	0.3615393582848701
+AL round 1, FL round 35
+client 0. Balanced acc:	0.316739282014449
+client 1. Balanced acc:	0.3890523189984832
+client 2. Balanced acc:	0.41573699694330546
+client 3. Balanced acc:	0.3493387338150377
+AL round 1, FL round 40
+client 0. Balanced acc:	0.2930616621407945
+client 1. Balanced acc:	0.2976938195646136
+client 2. Balanced acc:	0.41217614310338974
+client 3. Balanced acc:	0.2874278576014303
+AL round 1, FL round 45
+client 0. Balanced acc:	0.3324369384206254
+client 1. Balanced acc:	0.30861052361725305
+client 2. Balanced acc:	0.43277584681632497
+client 3. Balanced acc:	0.3665454486521448
+AL round 1, FL round 50
+client 0. Balanced acc:	0.3201059264101374
+client 1. Balanced acc:	0.35828045888611165
+client 2. Balanced acc:	0.4164070365164062
+client 3. Balanced acc:	0.2959842066665856
+AL round 1, FL round 55
+client 0. Balanced acc:	0.33273406368217684
+client 1. Balanced acc:	0.3208400093999017
+client 2. Balanced acc:	0.4519169620153384
+client 3. Balanced acc:	0.32736608098217906
+AL round 1, FL round 60
+client 0. Balanced acc:	0.32525738020336525
+client 1. Balanced acc:	0.3318955756371638
+client 2. Balanced acc:	0.45134346900329536
+client 3. Balanced acc:	0.36293124754368694
+AL round 1, FL round 65
+client 0. Balanced acc:	0.3268888566313798
+client 1. Balanced acc:	0.3367269114913799
+client 2. Balanced acc:	0.42505299260570434
+client 3. Balanced acc:	0.3443019429873851
+AL round 1, FL round 70
+client 0. Balanced acc:	0.33467966797916593
+client 1. Balanced acc:	0.3310880386250507
+client 2. Balanced acc:	0.4275853751485164
+client 3. Balanced acc:	0.34935103609910045
+AL round 1, FL round 75
+client 0. Balanced acc:	0.3360188882427574
+client 1. Balanced acc:	0.33956290456963406
+client 2. Balanced acc:	0.42375239157218525
+client 3. Balanced acc:	0.35239023434377803
+AL round 1, FL round 80
+client 0. Balanced acc:	0.3302534479209338
+client 1. Balanced acc:	0.31141874425858274
+client 2. Balanced acc:	0.4330827201007041
+client 3. Balanced acc:	0.34818088261889846
+AL round 1, FL round 85
+client 0. Balanced acc:	0.33199080661844493
+client 1. Balanced acc:	0.3112745412207054
+client 2. Balanced acc:	0.4164680335788972
+client 3. Balanced acc:	0.34462491477721635
+AL round 1, FL round 90
+client 0. Balanced acc:	0.32385739384582224
+client 1. Balanced acc:	0.3049531073084236
+client 2. Balanced acc:	0.415920379631762
+client 3. Balanced acc:	0.35699815797237733
+AL round 1, FL round 95
+client 0. Balanced acc:	0.3297116651920615
+client 1. Balanced acc:	0.3293287615629473
+client 2. Balanced acc:	0.43958900719809507
+client 3. Balanced acc:	0.3313017989696284
+AL round 1, FL round 100
+client 0. Balanced acc:	0.33839799572214324
+client 1. Balanced acc:	0.33217864085966375
+client 2. Balanced acc:	0.4237228612122907
+client 3. Balanced acc:	0.35125120490559103
+train num: [1986, 632, 538, 360]
+AL round 2, FL round 5
+client 0. Balanced acc:	0.3286410149311032
+client 1. Balanced acc:	0.3573287188361213
+client 2. Balanced acc:	0.3831339967530632
+client 3. Balanced acc:	0.2844054184562991
+AL round 2, FL round 10
+client 0. Balanced acc:	0.36393594084476155
+client 1. Balanced acc:	0.4740423850114294
+client 2. Balanced acc:	0.5420150859144827
+client 3. Balanced acc:	0.34766834883826286
+AL round 2, FL round 15
+client 0. Balanced acc:	0.38535708358020515
+client 1. Balanced acc:	0.4741395885406653
+client 2. Balanced acc:	0.6298165563478734
+client 3. Balanced acc:	0.365187059175828
+AL round 2, FL round 20
+client 0. Balanced acc:	0.382151432662777
+client 1. Balanced acc:	0.4065457497489799
+client 2. Balanced acc:	0.6378827493630459
+client 3. Balanced acc:	0.3485822354281471
+AL round 2, FL round 25
+client 0. Balanced acc:	0.3818888105297783
+client 1. Balanced acc:	0.48951590506099246
+client 2. Balanced acc:	0.6682928409623923
+client 3. Balanced acc:	0.3363221253632212
+AL round 2, FL round 30
+client 0. Balanced acc:	0.3229602429588192
+client 1. Balanced acc:	0.46905295990087376
+client 2. Balanced acc:	0.634067398721672
+client 3. Balanced acc:	0.2959467473166103
+AL round 2, FL round 35
+client 0. Balanced acc:	0.38691331859327194
+client 1. Balanced acc:	0.41229037150975234
+client 2. Balanced acc:	0.6865638136884895
+client 3. Balanced acc:	0.33581848679696036
+AL round 2, FL round 40
+client 0. Balanced acc:	0.3904668475270019
+client 1. Balanced acc:	0.44193851609733165
+client 2. Balanced acc:	0.6862088969534847
+client 3. Balanced acc:	0.3149376064248863
+AL round 2, FL round 45
+client 0. Balanced acc:	0.4054964547748148
+client 1. Balanced acc:	0.48869448183041725
+client 2. Balanced acc:	0.4980970707870584
+client 3. Balanced acc:	0.3167721200776591
+AL round 2, FL round 50
+client 0. Balanced acc:	0.3923194223818246
+client 1. Balanced acc:	0.4993366660257642
+client 2. Balanced acc:	0.5293778578252589
+client 3. Balanced acc:	0.36514641375527956
+AL round 2, FL round 55
+client 0. Balanced acc:	0.39337269076453274
+client 1. Balanced acc:	0.4616131513170544
+client 2. Balanced acc:	0.5739774853718084
+client 3. Balanced acc:	0.3513558664030884
+AL round 2, FL round 60
+client 0. Balanced acc:	0.40245481367349173
+client 1. Balanced acc:	0.45999807729282827
+client 2. Balanced acc:	0.7036435543207727
+client 3. Balanced acc:	0.36378629311922944
+AL round 2, FL round 65
+client 0. Balanced acc:	0.4062198531841794
+client 1. Balanced acc:	0.49072293789655835
+client 2. Balanced acc:	0.7213634209102976
+client 3. Balanced acc:	0.36618947432782195
+AL round 2, FL round 70
+client 0. Balanced acc:	0.3983464256261201
+client 1. Balanced acc:	0.5490867140934436
+client 2. Balanced acc:	0.694281952297935
+client 3. Balanced acc:	0.3698202135367115
+AL round 2, FL round 75
+client 0. Balanced acc:	0.40791240074777335
+client 1. Balanced acc:	0.46741011343972316
+client 2. Balanced acc:	0.6898964006057533
+client 3. Balanced acc:	0.3762658368886566
+AL round 2, FL round 80
+client 0. Balanced acc:	0.41899019471666943
+client 1. Balanced acc:	0.49786579503941547
+client 2. Balanced acc:	0.7155282378179548
+client 3. Balanced acc:	0.3890940067618363
+AL round 2, FL round 85
+client 0. Balanced acc:	0.4170895987967319
+client 1. Balanced acc:	0.490184579888483
+client 2. Balanced acc:	0.7078237339963577
+client 3. Balanced acc:	0.39025102921129473
+AL round 2, FL round 90
+client 0. Balanced acc:	0.40352449377807853
+client 1. Balanced acc:	0.4333247879681258
+client 2. Balanced acc:	0.6972075348477705
+client 3. Balanced acc:	0.39659075715401765
+AL round 2, FL round 95
+client 0. Balanced acc:	0.3931594082751335
+client 1. Balanced acc:	0.45447029417419726
+client 2. Balanced acc:	0.5527556195366828
+client 3. Balanced acc:	0.37805080990650636
+AL round 2, FL round 100
+client 0. Balanced acc:	0.39956504302226403
+client 1. Balanced acc:	0.5211786194962507
+client 2. Balanced acc:	0.5741884832396728
+client 3. Balanced acc:	0.41444536772963564
+train num: [2979, 948, 807, 540]
+AL round 3, FL round 5
+client 0. Balanced acc:	0.3829907775379302
+client 1. Balanced acc:	0.5630840223034032
+client 2. Balanced acc:	0.4402484641519481
+client 3. Balanced acc:	0.3146959254761517
+AL round 3, FL round 10
+client 0. Balanced acc:	0.4510831337747917
+client 1. Balanced acc:	0.4729325557050995
+client 2. Balanced acc:	0.6367774853335514
+client 3. Balanced acc:	0.42440474809231715
+AL round 3, FL round 15
+client 0. Balanced acc:	0.42120445372159177
+client 1. Balanced acc:	0.48870836804887946
+client 2. Balanced acc:	0.5504169105653208
+client 3. Balanced acc:	0.3921806461498455
+AL round 3, FL round 20
+client 0. Balanced acc:	0.4470305505298381
+client 1. Balanced acc:	0.5107863872332243
+client 2. Balanced acc:	0.6560815915027213
+client 3. Balanced acc:	0.3936597932258614
+AL round 3, FL round 25
+client 0. Balanced acc:	0.4604194864774339
+client 1. Balanced acc:	0.4851951547779273
+client 2. Balanced acc:	0.6363051258614456
+client 3. Balanced acc:	0.36269575457016956
+AL round 3, FL round 30
+client 0. Balanced acc:	0.4435255825209786
+client 1. Balanced acc:	0.40810848341130973
+client 2. Balanced acc:	0.6189714376833838
+client 3. Balanced acc:	0.367551234040641
+AL round 3, FL round 35
+client 0. Balanced acc:	0.48459675799106916
+client 1. Balanced acc:	0.3915635881988506
+client 2. Balanced acc:	0.674799168597793
+client 3. Balanced acc:	0.44286972139009917
+AL round 3, FL round 40
+client 0. Balanced acc:	0.45505000706004767
+client 1. Balanced acc:	0.4003022922942169
+client 2. Balanced acc:	0.7240923031422242
+client 3. Balanced acc:	0.4197974506278769
+AL round 3, FL round 45
+client 0. Balanced acc:	0.44560029635144843
+client 1. Balanced acc:	0.49019846610694523
+client 2. Balanced acc:	0.5387710121614734
+client 3. Balanced acc:	0.44819016458172417
+AL round 3, FL round 50
+client 0. Balanced acc:	0.458707749702263
+client 1. Balanced acc:	0.5383142130786814
+client 2. Balanced acc:	0.6252386854660222
+client 3. Balanced acc:	0.37351421374224064
+AL round 3, FL round 55
+client 0. Balanced acc:	0.47954076104047416
+client 1. Balanced acc:	0.4600119635112906
+client 2. Balanced acc:	0.6707224323042059
+client 3. Balanced acc:	0.41381564916832503
+AL round 3, FL round 60
+client 0. Balanced acc:	0.4674529415370279
+client 1. Balanced acc:	0.45609925441688565
+client 2. Balanced acc:	0.5281496564406137
+client 3. Balanced acc:	0.4137139895754718
+AL round 3, FL round 65
+client 0. Balanced acc:	0.4714783722192777
+client 1. Balanced acc:	0.45744514943707404
+client 2. Balanced acc:	0.6905070557046542
+client 3. Balanced acc:	0.44461828480376947
+AL round 3, FL round 70
+client 0. Balanced acc:	0.4908656863523795
+client 1. Balanced acc:	0.45758935247495136
+client 2. Balanced acc:	0.6838997749578143
+client 3. Balanced acc:	0.46288459831385037
+AL round 3, FL round 75
+client 0. Balanced acc:	0.48209759718748724
+client 1. Balanced acc:	0.46243457454762976
+client 2. Balanced acc:	0.6961880357802954
+client 3. Balanced acc:	0.4346351102030503
+AL round 3, FL round 80
+client 0. Balanced acc:	0.48344044637269457
+client 1. Balanced acc:	0.45125403234420725
+client 2. Balanced acc:	0.5453871956049484
+client 3. Balanced acc:	0.4327978156447484
+AL round 3, FL round 85
+client 0. Balanced acc:	0.4819782680755921
+client 1. Balanced acc:	0.43574739900446496
+client 2. Balanced acc:	0.6816157022916522
+client 3. Balanced acc:	0.4586093704361382
+AL round 3, FL round 90
+client 0. Balanced acc:	0.4949306695063548
+client 1. Balanced acc:	0.4547533593966972
+client 2. Balanced acc:	0.5559454135815619
+client 3. Balanced acc:	0.43911872182951905
+AL round 3, FL round 95
+client 0. Balanced acc:	0.48572747718532805
+client 1. Balanced acc:	0.43601657800850263
+client 2. Balanced acc:	0.5425552241145881
+client 3. Balanced acc:	0.41293588852509977
+AL round 3, FL round 100
+client 0. Balanced acc:	0.4836284162243245
+client 1. Balanced acc:	0.4430344591851994
+client 2. Balanced acc:	0.6994982884527928
+client 3. Balanced acc:	0.43098171858488377
+train num: [3972, 1264, 1076, 720]
+AL round 4, FL round 5
+client 0. Balanced acc:	0.3832193828256035
+client 1. Balanced acc:	0.42534128052297626
+client 2. Balanced acc:	0.5829703529697892
+client 3. Balanced acc:	0.3739356590543522
+AL round 4, FL round 10
+client 0. Balanced acc:	0.40379292881655987
+client 1. Balanced acc:	0.6287156316093059
+client 2. Balanced acc:	0.5117584637999848
+client 3. Balanced acc:	0.42730361189903426
+AL round 4, FL round 15
+client 0. Balanced acc:	0.4774773590149875
+client 1. Balanced acc:	0.41688030079685523
+client 2. Balanced acc:	0.6580215559666456
+client 3. Balanced acc:	0.44105156167182885
+AL round 4, FL round 20
+client 0. Balanced acc:	0.42673033748647116
+client 1. Balanced acc:	0.4975773889636608
+client 2. Balanced acc:	0.5060623321278411
+client 3. Balanced acc:	0.3744885067568638
+AL round 4, FL round 25
+client 0. Balanced acc:	0.4409296129086919
+client 1. Balanced acc:	0.3004966993526886
+client 2. Balanced acc:	0.6082239544721223
+client 3. Balanced acc:	0.4542558536219729
+AL round 4, FL round 30
+client 0. Balanced acc:	0.47224213726160297
+client 1. Balanced acc:	0.4551806276570745
+client 2. Balanced acc:	0.7487148465591638
+client 3. Balanced acc:	0.4587382313367168
+AL round 4, FL round 35
+client 0. Balanced acc:	0.4857338885258634
+client 1. Balanced acc:	0.4910530026276997
+client 2. Balanced acc:	0.7128761255072
+client 3. Balanced acc:	0.4175542543618779
+AL round 4, FL round 40
+client 0. Balanced acc:	0.4222016186289495
+client 1. Balanced acc:	0.3930291183319447
+client 2. Balanced acc:	0.6969393863561751
+client 3. Balanced acc:	0.34465498907343545
+AL round 4, FL round 45
+client 0. Balanced acc:	0.4592683004492804
+client 1. Balanced acc:	0.4271144438035421
+client 2. Balanced acc:	0.6962503370673684
+client 3. Balanced acc:	0.41310622359290783
+AL round 4, FL round 50
+client 0. Balanced acc:	0.4436924379880719
+client 1. Balanced acc:	0.48883868486829457
+client 2. Balanced acc:	0.6913619837815068
+client 3. Balanced acc:	0.41739810007060935
+AL round 4, FL round 55
+client 0. Balanced acc:	0.49210926231182917
+client 1. Balanced acc:	0.5217500907945054
+client 2. Balanced acc:	0.705956543092917
+client 3. Balanced acc:	0.4535762076772883
+AL round 4, FL round 60
+client 0. Balanced acc:	0.49935275049413386
+client 1. Balanced acc:	0.49881753508940585
+client 2. Balanced acc:	0.710632910482809
+client 3. Balanced acc:	0.44881450549790547
+AL round 4, FL round 65
+client 0. Balanced acc:	0.5155991436344536
+client 1. Balanced acc:	0.5362910978657951
+client 2. Balanced acc:	0.7237588231816724
+client 3. Balanced acc:	0.4819320147789475
+AL round 4, FL round 70
+client 0. Balanced acc:	0.5033453397331417
+client 1. Balanced acc:	0.5527302441838108
+client 2. Balanced acc:	0.744294303143948
+client 3. Balanced acc:	0.480774992329489
+AL round 4, FL round 75
+client 0. Balanced acc:	0.5023616107319077
+client 1. Balanced acc:	0.5439723130167275
+client 2. Balanced acc:	0.7440526911084471
+client 3. Balanced acc:	0.46920043993557137
+AL round 4, FL round 80
+client 0. Balanced acc:	0.5100200674026661
+client 1. Balanced acc:	0.5880503749278985
+client 2. Balanced acc:	0.7384603021124895
+client 3. Balanced acc:	0.4529359548248343
+AL round 4, FL round 85
+client 0. Balanced acc:	0.5118047439690329
+client 1. Balanced acc:	0.6147375504710633
+client 2. Balanced acc:	0.7633317806533502
+client 3. Balanced acc:	0.4754082129901069
+AL round 4, FL round 90
+client 0. Balanced acc:	0.5073332433473409
+client 1. Balanced acc:	0.5648625264372236
+client 2. Balanced acc:	0.7356881725574645
+client 3. Balanced acc:	0.4705919056127514
+AL round 4, FL round 95
+client 0. Balanced acc:	0.4944270931589349
+client 1. Balanced acc:	0.4893962699480869
+client 2. Balanced acc:	0.7200240546834017
+client 3. Balanced acc:	0.48028428221144975
+AL round 4, FL round 100
+client 0. Balanced acc:	0.5054423526222196
+client 1. Balanced acc:	0.5578446452605268
+client 2. Balanced acc:	0.7495082953773337
+client 3. Balanced acc:	0.4721648668130417
+train num: [4965, 1580, 1345, 900]
+AL round 5, FL round 5
+client 0. Balanced acc:	0.33748490634413225
+client 1. Balanced acc:	0.5306137708560319
+client 2. Balanced acc:	0.600954349703504
+client 3. Balanced acc:	0.33888363402104577
+AL round 5, FL round 10
+client 0. Balanced acc:	0.41547182929439375
+client 1. Balanced acc:	0.4438227691255955
+client 2. Balanced acc:	0.6750743980490851
+client 3. Balanced acc:	0.36707510986418507
+AL round 5, FL round 15
+client 0. Balanced acc:	0.4287214433454807
+client 1. Balanced acc:	0.5552917174047727
+client 2. Balanced acc:	0.6484658171397094
+client 3. Balanced acc:	0.3539932330071017
+AL round 5, FL round 20
+client 0. Balanced acc:	0.4843565577956442
+client 1. Balanced acc:	0.5276528018116174
+client 2. Balanced acc:	0.7244543637739037
+client 3. Balanced acc:	0.4570646234561831
+AL round 5, FL round 25
+client 0. Balanced acc:	0.4884798840267774
+client 1. Balanced acc:	0.5366991390544553
+client 2. Balanced acc:	0.701913631165097
+client 3. Balanced acc:	0.39905296354288106
+AL round 5, FL round 30
+client 0. Balanced acc:	0.49114947922797025
+client 1. Balanced acc:	0.5857473990044649
+client 2. Balanced acc:	0.7245379442181505
+client 3. Balanced acc:	0.42263104602932733
+AL round 5, FL round 35
+client 0. Balanced acc:	0.42858889698529534
+client 1. Balanced acc:	0.44437501335213314
+client 2. Balanced acc:	0.6610918659451471
+client 3. Balanced acc:	0.3873054056751836
+AL round 5, FL round 40
+client 0. Balanced acc:	0.49095258411839715
+client 1. Balanced acc:	0.46187698946783734
+client 2. Balanced acc:	0.7074500566826364
+client 3. Balanced acc:	0.4284505973053577
+AL round 5, FL round 45
+client 0. Balanced acc:	0.5084679121441624
+client 1. Balanced acc:	0.6132421115597427
+client 2. Balanced acc:	0.7108494485911613
+client 3. Balanced acc:	0.4515932010358966
+AL round 5, FL round 50
+client 0. Balanced acc:	0.5478912990308595
+client 1. Balanced acc:	0.5187698946783738
+client 2. Balanced acc:	0.7496375820841656
+client 3. Balanced acc:	0.44841843825082145
+AL round 5, FL round 55
+client 0. Balanced acc:	0.5232560738563659
+client 1. Balanced acc:	0.5921019462069259
+client 2. Balanced acc:	0.7467240622718974
+client 3. Balanced acc:	0.45545560256697837
+AL round 5, FL round 60
+client 0. Balanced acc:	0.5375884600978438
+client 1. Balanced acc:	0.5836131940438805
+client 2. Balanced acc:	0.7631428050937014
+client 3. Balanced acc:	0.42997062921762996
+AL round 5, FL round 65
+client 0. Balanced acc:	0.5459572669321721
+client 1. Balanced acc:	0.6328056570317673
+client 2. Balanced acc:	0.7348683864004081
+client 3. Balanced acc:	0.4432539283513503
+AL round 5, FL round 70
+client 0. Balanced acc:	0.5376420593387778
+client 1. Balanced acc:	0.5550417654724519
+client 2. Balanced acc:	0.7391588320737604
+client 3. Balanced acc:	0.4780583607095988
+AL round 5, FL round 75
+client 0. Balanced acc:	0.5404574855416949
+client 1. Balanced acc:	0.5996581853916981
+client 2. Balanced acc:	0.7602475993923733
+client 3. Balanced acc:	0.47326470574152013
+AL round 5, FL round 80
+client 0. Balanced acc:	0.5468612731126883
+client 1. Balanced acc:	0.4815847379777393
+client 2. Balanced acc:	0.7533824618614335
+client 3. Balanced acc:	0.464478978011693
+AL round 5, FL round 85
+client 0. Balanced acc:	0.5430880647710306
+client 1. Balanced acc:	0.5375066760665683
+client 2. Balanced acc:	0.756637218135837
+client 3. Balanced acc:	0.4450336158070353
+AL round 5, FL round 90
+client 0. Balanced acc:	0.5424664310546599
+client 1. Balanced acc:	0.5108387275951205
+client 2. Balanced acc:	0.7624537558048946
+client 3. Balanced acc:	0.46938576611000676
+AL round 5, FL round 95
+client 0. Balanced acc:	0.5359826602423003
+client 1. Balanced acc:	0.5742976777970048
+client 2. Balanced acc:	0.7713585575308993
+client 3. Balanced acc:	0.44731290859513445
+AL round 5, FL round 100
+client 0. Balanced acc:	0.5388881551749078
+client 1. Balanced acc:	0.5713367087525902
+client 2. Balanced acc:	0.7643034301655623
+client 3. Balanced acc:	0.4976928613234238

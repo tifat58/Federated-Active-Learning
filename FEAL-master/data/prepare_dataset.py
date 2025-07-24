@@ -29,12 +29,12 @@ def mr_norm(x, r=0.99):
 
 
 def prepare_isic():
-    img_path = glob('/Users/adityabikrambiswas/Desktop/DFKI_Thesis/Research_Papers_Documents/Code/FEAL-master/Dataset/FedISIC/ISIC_2019_Training_Input_preprocessed/*')
+    img_path = glob('../../Dataset/FedISIC/ISIC_2019_Training_Input_preprocessed/*')
     for i in range(len(img_path)):
-        # pdb.set_trace()
+        pdb.set_trace()
         img = Image.open(img_path[i])
         img_np = np.asarray(img)
-        np.save('/Users/adityabikrambiswas/Desktop/DFKI_Thesis/Research_Papers_Documents/Code/FEAL-master/Dataset/FedISIC_npy/{}'.format(img_path[i].split('/')[-1].replace('jpg','npy')), img_np)
+        np.save('../../Dataset/FedISIC_npy/{}'.format(img_path[i].split('/')[-1].replace('jpg','npy')), img_np)
 
 
 def prepare_camelyon():
