@@ -1,0 +1,843 @@
+[CONFIGURATION USED IN THIS RUN]
+dataset:
+  csv_dir: ./data/FedPolyp/splits/FedPolyp_npy/
+  data_root: ./data/FedPolyp/FedPolyp_npy/
+initial_label_rate:
+  0.05
+num_clients:
+  4
+total_rounds:
+  100
+al_period:
+  10
+budget_per_round:
+  80
+local_epochs:
+  2
+batch_size:
+  32
+learning_rate:
+  0.0005
+kl_weight:
+  0.005
+annealing_step:
+  20
+model:
+  name: evidential_unet
+  num_classes: 2
+seed:
+  42
+uncertainty:
+  beta: 0.5
+  dirichlet_alpha: 1.0
+sampling:
+  use_cosine_filter: True
+evidential_loss:
+  lambda: 0.001
+logo:
+  num_clusters: 2
+
+[BEGINNING LOGGING OF ROUNDS...]
+
+
+[LOG] AL round -, FL round 1
+[LOG] Global Mean Dice Score: 0.1688
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 2
+[LOG] Global Mean Dice Score: 0.2360
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 3
+[LOG] Global Mean Dice Score: 0.5210
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 4
+[LOG] Global Mean Dice Score: 0.5217
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 5
+[LOG] Global Mean Dice Score: 0.5627
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 6
+[LOG] Global Mean Dice Score: 0.5710
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 7
+[LOG] Global Mean Dice Score: 0.6172
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 8
+[LOG] Global Mean Dice Score: 0.6167
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round -, FL round 9
+[LOG] Global Mean Dice Score: 0.6356
+[LOG] Labeled training size per client:
+Client 1: 40 samples
+Client 2: 7 samples
+Client 3: 15 samples
+Client 4: 24 samples
+
+[LOG] AL round 1, FL round 10
+[LOG] Global Mean Dice Score: 0.6664
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 11
+[LOG] Global Mean Dice Score: 0.6714
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 12
+[LOG] Global Mean Dice Score: 0.6632
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 13
+[LOG] Global Mean Dice Score: 0.7062
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 14
+[LOG] Global Mean Dice Score: 0.6964
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 15
+[LOG] Global Mean Dice Score: 0.7016
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 16
+[LOG] Global Mean Dice Score: 0.6853
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 17
+[LOG] Global Mean Dice Score: 0.7481
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 18
+[LOG] Global Mean Dice Score: 0.7324
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round -, FL round 19
+[LOG] Global Mean Dice Score: 0.7338
+[LOG] Labeled training size per client:
+Client 1: 105 samples
+Client 2: 20 samples
+Client 3: 34 samples
+Client 4: 50 samples
+
+[LOG] AL round 2, FL round 20
+[LOG] Global Mean Dice Score: 0.7610
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 21
+[LOG] Global Mean Dice Score: 0.7258
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 22
+[LOG] Global Mean Dice Score: 0.7447
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 23
+[LOG] Global Mean Dice Score: 0.7452
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 24
+[LOG] Global Mean Dice Score: 0.7533
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 25
+[LOG] Global Mean Dice Score: 0.7312
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 26
+[LOG] Global Mean Dice Score: 0.7738
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 27
+[LOG] Global Mean Dice Score: 0.7668
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 28
+[LOG] Global Mean Dice Score: 0.7759
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round -, FL round 29
+[LOG] Global Mean Dice Score: 0.7713
+[LOG] Labeled training size per client:
+Client 1: 182 samples
+Client 2: 38 samples
+Client 3: 66 samples
+Client 4: 89 samples
+
+[LOG] AL round 3, FL round 30
+[LOG] Global Mean Dice Score: 0.7458
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 31
+[LOG] Global Mean Dice Score: 0.7608
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 32
+[LOG] Global Mean Dice Score: 0.7559
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 33
+[LOG] Global Mean Dice Score: 0.7449
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 34
+[LOG] Global Mean Dice Score: 0.7793
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 35
+[LOG] Global Mean Dice Score: 0.7798
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 36
+[LOG] Global Mean Dice Score: 0.7552
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 37
+[LOG] Global Mean Dice Score: 0.7722
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 38
+[LOG] Global Mean Dice Score: 0.7571
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round -, FL round 39
+[LOG] Global Mean Dice Score: 0.7858
+[LOG] Labeled training size per client:
+Client 1: 235 samples
+Client 2: 45 samples
+Client 3: 79 samples
+Client 4: 112 samples
+
+[LOG] AL round 4, FL round 40
+[LOG] Global Mean Dice Score: 0.7839
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 41
+[LOG] Global Mean Dice Score: 0.7729
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 42
+[LOG] Global Mean Dice Score: 0.7829
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 43
+[LOG] Global Mean Dice Score: 0.7525
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 44
+[LOG] Global Mean Dice Score: 0.7568
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 45
+[LOG] Global Mean Dice Score: 0.7735
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 46
+[LOG] Global Mean Dice Score: 0.7714
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 47
+[LOG] Global Mean Dice Score: 0.7838
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 48
+[LOG] Global Mean Dice Score: 0.7899
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round -, FL round 49
+[LOG] Global Mean Dice Score: 0.7749
+[LOG] Labeled training size per client:
+Client 1: 266 samples
+Client 2: 49 samples
+Client 3: 84 samples
+Client 4: 124 samples
+
+[LOG] AL round 5, FL round 50
+[LOG] Global Mean Dice Score: 0.7848
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 51
+[LOG] Global Mean Dice Score: 0.8075
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 52
+[LOG] Global Mean Dice Score: 0.7611
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 53
+[LOG] Global Mean Dice Score: 0.7721
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 54
+[LOG] Global Mean Dice Score: 0.7885
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 55
+[LOG] Global Mean Dice Score: 0.7851
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 56
+[LOG] Global Mean Dice Score: 0.7869
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 57
+[LOG] Global Mean Dice Score: 0.7855
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 58
+[LOG] Global Mean Dice Score: 0.8007
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round -, FL round 59
+[LOG] Global Mean Dice Score: 0.7859
+[LOG] Labeled training size per client:
+Client 1: 311 samples
+Client 2: 52 samples
+Client 3: 93 samples
+Client 4: 142 samples
+
+[LOG] AL round 6, FL round 60
+[LOG] Global Mean Dice Score: 0.7972
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 61
+[LOG] Global Mean Dice Score: 0.7863
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 62
+[LOG] Global Mean Dice Score: 0.7871
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 63
+[LOG] Global Mean Dice Score: 0.7774
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 64
+[LOG] Global Mean Dice Score: 0.7920
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 65
+[LOG] Global Mean Dice Score: 0.7868
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 66
+[LOG] Global Mean Dice Score: 0.7862
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 67
+[LOG] Global Mean Dice Score: 0.8035
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 68
+[LOG] Global Mean Dice Score: 0.8038
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round -, FL round 69
+[LOG] Global Mean Dice Score: 0.7779
+[LOG] Labeled training size per client:
+Client 1: 347 samples
+Client 2: 57 samples
+Client 3: 101 samples
+Client 4: 159 samples
+
+[LOG] AL round 7, FL round 70
+[LOG] Global Mean Dice Score: 0.7852
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 71
+[LOG] Global Mean Dice Score: 0.7961
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 72
+[LOG] Global Mean Dice Score: 0.7793
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 73
+[LOG] Global Mean Dice Score: 0.7924
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 74
+[LOG] Global Mean Dice Score: 0.7796
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 75
+[LOG] Global Mean Dice Score: 0.7869
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 76
+[LOG] Global Mean Dice Score: 0.7812
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 77
+[LOG] Global Mean Dice Score: 0.8005
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 78
+[LOG] Global Mean Dice Score: 0.7959
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round -, FL round 79
+[LOG] Global Mean Dice Score: 0.7745
+[LOG] Labeled training size per client:
+Client 1: 372 samples
+Client 2: 60 samples
+Client 3: 107 samples
+Client 4: 170 samples
+
+[LOG] AL round 8, FL round 80
+[LOG] Global Mean Dice Score: 0.7745
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 81
+[LOG] Global Mean Dice Score: 0.7771
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 82
+[LOG] Global Mean Dice Score: 0.7857
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 83
+[LOG] Global Mean Dice Score: 0.7856
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 84
+[LOG] Global Mean Dice Score: 0.7992
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 85
+[LOG] Global Mean Dice Score: 0.7908
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 86
+[LOG] Global Mean Dice Score: 0.7801
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 87
+[LOG] Global Mean Dice Score: 0.7945
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 88
+[LOG] Global Mean Dice Score: 0.8055
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round -, FL round 89
+[LOG] Global Mean Dice Score: 0.7945
+[LOG] Labeled training size per client:
+Client 1: 396 samples
+Client 2: 62 samples
+Client 3: 118 samples
+Client 4: 184 samples
+
+[LOG] AL round 9, FL round 90
+[LOG] Global Mean Dice Score: 0.7762
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 91
+[LOG] Global Mean Dice Score: 0.7860
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 92
+[LOG] Global Mean Dice Score: 0.7804
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 93
+[LOG] Global Mean Dice Score: 0.7932
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 94
+[LOG] Global Mean Dice Score: 0.8002
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 95
+[LOG] Global Mean Dice Score: 0.8061
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 96
+[LOG] Global Mean Dice Score: 0.7938
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 97
+[LOG] Global Mean Dice Score: 0.7878
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 98
+[LOG] Global Mean Dice Score: 0.7926
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round -, FL round 99
+[LOG] Global Mean Dice Score: 0.7837
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] AL round 10, FL round 100
+[LOG] Global Mean Dice Score: 0.7831
+[LOG] Labeled training size per client:
+Client 1: 417 samples
+Client 2: 64 samples
+Client 3: 124 samples
+Client 4: 199 samples
+
+[LOG] Total training time: 29.25 minutes
