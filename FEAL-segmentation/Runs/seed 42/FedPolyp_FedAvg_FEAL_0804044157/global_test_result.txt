@@ -1,0 +1,1010 @@
+train num: [100, 100, 100, 100]
+AL round 1, FL round 5
+client 0. Dice score:	0.5314351916313171
+client 1. Dice score:	0.21165835857391357
+client 2. Dice score:	0.2933129370212555
+client 3. Dice score:	0.3800957500934601
+AL round 1, FL round 10
+client 0. Dice score:	0.5302263498306274
+client 1. Dice score:	0.23087190091609955
+client 2. Dice score:	0.3067902624607086
+client 3. Dice score:	0.3836781978607178
+AL round 1, FL round 15
+client 0. Dice score:	0.5475758910179138
+client 1. Dice score:	0.2509686052799225
+client 2. Dice score:	0.31941649317741394
+client 3. Dice score:	0.3632957935333252
+AL round 1, FL round 20
+client 0. Dice score:	0.5772412419319153
+client 1. Dice score:	0.28023800253868103
+client 2. Dice score:	0.38682910799980164
+client 3. Dice score:	0.4092336595058441
+AL round 1, FL round 25
+client 0. Dice score:	0.5947426557540894
+client 1. Dice score:	0.29349690675735474
+client 2. Dice score:	0.4225544035434723
+client 3. Dice score:	0.4367080330848694
+AL round 1, FL round 30
+client 0. Dice score:	0.6049968004226685
+client 1. Dice score:	0.3613947629928589
+client 2. Dice score:	0.46328458189964294
+client 3. Dice score:	0.4584423899650574
+AL round 1, FL round 35
+client 0. Dice score:	0.6049020886421204
+client 1. Dice score:	0.35940659046173096
+client 2. Dice score:	0.4765513837337494
+client 3. Dice score:	0.4730076789855957
+AL round 1, FL round 40
+client 0. Dice score:	0.6154700517654419
+client 1. Dice score:	0.41422802209854126
+client 2. Dice score:	0.493239164352417
+client 3. Dice score:	0.489352822303772
+AL round 1, FL round 45
+client 0. Dice score:	0.62054044008255
+client 1. Dice score:	0.3883312940597534
+client 2. Dice score:	0.45539191365242004
+client 3. Dice score:	0.4697059094905853
+AL round 1, FL round 50
+client 0. Dice score:	0.6252246499061584
+client 1. Dice score:	0.4417871832847595
+client 2. Dice score:	0.466165155172348
+client 3. Dice score:	0.5543690919876099
+AL round 1, FL round 55
+client 0. Dice score:	0.6220663785934448
+client 1. Dice score:	0.47033071517944336
+client 2. Dice score:	0.48079967498779297
+client 3. Dice score:	0.5290133953094482
+AL round 1, FL round 60
+client 0. Dice score:	0.6227088570594788
+client 1. Dice score:	0.48039618134498596
+client 2. Dice score:	0.48610174655914307
+client 3. Dice score:	0.5409919619560242
+AL round 1, FL round 65
+client 0. Dice score:	0.6198202967643738
+client 1. Dice score:	0.4778982400894165
+client 2. Dice score:	0.48513245582580566
+client 3. Dice score:	0.5362672209739685
+AL round 1, FL round 70
+client 0. Dice score:	0.6186412572860718
+client 1. Dice score:	0.4796596169471741
+client 2. Dice score:	0.4803898334503174
+client 3. Dice score:	0.5344464778900146
+AL round 1, FL round 75
+client 0. Dice score:	0.6262474060058594
+client 1. Dice score:	0.4895210266113281
+client 2. Dice score:	0.48608312010765076
+client 3. Dice score:	0.5371782779693604
+AL round 1, FL round 80
+client 0. Dice score:	0.623418927192688
+client 1. Dice score:	0.49022477865219116
+client 2. Dice score:	0.4837104380130768
+client 3. Dice score:	0.5330312252044678
+AL round 1, FL round 85
+client 0. Dice score:	0.6268291473388672
+client 1. Dice score:	0.5036901235580444
+client 2. Dice score:	0.4936034679412842
+client 3. Dice score:	0.526875913143158
+AL round 1, FL round 90
+client 0. Dice score:	0.625125527381897
+client 1. Dice score:	0.5099084973335266
+client 2. Dice score:	0.4936835467815399
+client 3. Dice score:	0.5334291458129883
+AL round 1, FL round 95
+client 0. Dice score:	0.6233345866203308
+client 1. Dice score:	0.5061630010604858
+client 2. Dice score:	0.4930351674556732
+client 3. Dice score:	0.5331868529319763
+AL round 1, FL round 100
+client 0. Dice score:	0.6252562403678894
+client 1. Dice score:	0.48731690645217896
+client 2. Dice score:	0.49600550532341003
+client 3. Dice score:	0.5286235809326172
+train num: [200, 134, 200, 200]
+AL round 2, FL round 5
+client 0. Dice score:	0.5691355466842651
+client 1. Dice score:	0.22735831141471863
+client 2. Dice score:	0.34924542903900146
+client 3. Dice score:	0.45598021149635315
+AL round 2, FL round 10
+client 0. Dice score:	0.6339952349662781
+client 1. Dice score:	0.26862266659736633
+client 2. Dice score:	0.37877222895622253
+client 3. Dice score:	0.4739518463611603
+AL round 2, FL round 15
+client 0. Dice score:	0.6669171452522278
+client 1. Dice score:	0.3012065887451172
+client 2. Dice score:	0.4633955657482147
+client 3. Dice score:	0.5083972811698914
+AL round 2, FL round 20
+client 0. Dice score:	0.696747899055481
+client 1. Dice score:	0.3365013003349304
+client 2. Dice score:	0.4959244430065155
+client 3. Dice score:	0.5110335946083069
+AL round 2, FL round 25
+client 0. Dice score:	0.715114951133728
+client 1. Dice score:	0.3945205807685852
+client 2. Dice score:	0.5621452927589417
+client 3. Dice score:	0.5968328714370728
+AL round 2, FL round 30
+client 0. Dice score:	0.7210837006568909
+client 1. Dice score:	0.4349208176136017
+client 2. Dice score:	0.5797454118728638
+client 3. Dice score:	0.6406054496765137
+AL round 2, FL round 35
+client 0. Dice score:	0.7150841951370239
+client 1. Dice score:	0.47116750478744507
+client 2. Dice score:	0.5911113619804382
+client 3. Dice score:	0.6330524682998657
+AL round 2, FL round 40
+client 0. Dice score:	0.6412606835365295
+client 1. Dice score:	0.31251049041748047
+client 2. Dice score:	0.4738575518131256
+client 3. Dice score:	0.6145553588867188
+AL round 2, FL round 45
+client 0. Dice score:	0.7108644843101501
+client 1. Dice score:	0.4710686206817627
+client 2. Dice score:	0.6033110022544861
+client 3. Dice score:	0.7119446992874146
+AL round 2, FL round 50
+client 0. Dice score:	0.7423043251037598
+client 1. Dice score:	0.47164386510849
+client 2. Dice score:	0.6063998937606812
+client 3. Dice score:	0.6586325764656067
+AL round 2, FL round 55
+client 0. Dice score:	0.7377614974975586
+client 1. Dice score:	0.5268388986587524
+client 2. Dice score:	0.6294072866439819
+client 3. Dice score:	0.6979621052742004
+AL round 2, FL round 60
+client 0. Dice score:	0.7381330728530884
+client 1. Dice score:	0.5288255214691162
+client 2. Dice score:	0.628650963306427
+client 3. Dice score:	0.6881357431411743
+AL round 2, FL round 65
+client 0. Dice score:	0.7367634177207947
+client 1. Dice score:	0.5503515005111694
+client 2. Dice score:	0.6299126744270325
+client 3. Dice score:	0.694019079208374
+AL round 2, FL round 70
+client 0. Dice score:	0.7355431914329529
+client 1. Dice score:	0.5533105731010437
+client 2. Dice score:	0.6285262107849121
+client 3. Dice score:	0.6887181997299194
+AL round 2, FL round 75
+client 0. Dice score:	0.7311559319496155
+client 1. Dice score:	0.5651428699493408
+client 2. Dice score:	0.6349380612373352
+client 3. Dice score:	0.6946603059768677
+AL round 2, FL round 80
+client 0. Dice score:	0.7315953373908997
+client 1. Dice score:	0.5694698095321655
+client 2. Dice score:	0.633945882320404
+client 3. Dice score:	0.6911514401435852
+AL round 2, FL round 85
+client 0. Dice score:	0.7311310172080994
+client 1. Dice score:	0.5715084075927734
+client 2. Dice score:	0.6296675801277161
+client 3. Dice score:	0.6862905025482178
+AL round 2, FL round 90
+client 0. Dice score:	0.72938472032547
+client 1. Dice score:	0.5759333372116089
+client 2. Dice score:	0.6329012513160706
+client 3. Dice score:	0.6918380260467529
+AL round 2, FL round 95
+client 0. Dice score:	0.7296589016914368
+client 1. Dice score:	0.5726790428161621
+client 2. Dice score:	0.6329129338264465
+client 3. Dice score:	0.6847854852676392
+AL round 2, FL round 100
+client 0. Dice score:	0.7295740842819214
+client 1. Dice score:	0.5670087337493896
+client 2. Dice score:	0.6216841340065002
+client 3. Dice score:	0.6744463443756104
+train num: [200, 134, 200, 200]
+AL round 3, FL round 5
+client 0. Dice score:	0.5452072024345398
+client 1. Dice score:	0.24520345032215118
+client 2. Dice score:	0.32952019572257996
+client 3. Dice score:	0.40084826946258545
+AL round 3, FL round 10
+client 0. Dice score:	0.5921187996864319
+client 1. Dice score:	0.25835245847702026
+client 2. Dice score:	0.37983238697052
+client 3. Dice score:	0.4392213225364685
+AL round 3, FL round 15
+client 0. Dice score:	0.6426277160644531
+client 1. Dice score:	0.3602215051651001
+client 2. Dice score:	0.42448437213897705
+client 3. Dice score:	0.5343950986862183
+AL round 3, FL round 20
+client 0. Dice score:	0.6762979626655579
+client 1. Dice score:	0.3914709687232971
+client 2. Dice score:	0.45124518871307373
+client 3. Dice score:	0.5332697629928589
+AL round 3, FL round 25
+client 0. Dice score:	0.7056398391723633
+client 1. Dice score:	0.4653359651565552
+client 2. Dice score:	0.49864840507507324
+client 3. Dice score:	0.5886225700378418
+AL round 3, FL round 30
+client 0. Dice score:	0.7183240056037903
+client 1. Dice score:	0.40641146898269653
+client 2. Dice score:	0.5434529185295105
+client 3. Dice score:	0.6166493892669678
+AL round 3, FL round 35
+client 0. Dice score:	0.6983423233032227
+client 1. Dice score:	0.47817420959472656
+client 2. Dice score:	0.5185710787773132
+client 3. Dice score:	0.6225204467773438
+AL round 3, FL round 40
+client 0. Dice score:	0.7062066197395325
+client 1. Dice score:	0.6185641288757324
+client 2. Dice score:	0.5824456810951233
+client 3. Dice score:	0.69469153881073
+AL round 3, FL round 45
+client 0. Dice score:	0.7184821963310242
+client 1. Dice score:	0.4715287685394287
+client 2. Dice score:	0.5452656149864197
+client 3. Dice score:	0.6619552373886108
+AL round 3, FL round 50
+client 0. Dice score:	0.7360124588012695
+client 1. Dice score:	0.646734356880188
+client 2. Dice score:	0.5934997797012329
+client 3. Dice score:	0.6669083833694458
+AL round 3, FL round 55
+client 0. Dice score:	0.7197176218032837
+client 1. Dice score:	0.686687707901001
+client 2. Dice score:	0.593626081943512
+client 3. Dice score:	0.6910853981971741
+AL round 3, FL round 60
+client 0. Dice score:	0.7178930044174194
+client 1. Dice score:	0.6862753629684448
+client 2. Dice score:	0.5924943089485168
+client 3. Dice score:	0.6894914507865906
+AL round 3, FL round 65
+client 0. Dice score:	0.7131810784339905
+client 1. Dice score:	0.6855173707008362
+client 2. Dice score:	0.5944469571113586
+client 3. Dice score:	0.6881621479988098
+AL round 3, FL round 70
+client 0. Dice score:	0.7106817960739136
+client 1. Dice score:	0.679215669631958
+client 2. Dice score:	0.5937787890434265
+client 3. Dice score:	0.6840224266052246
+AL round 3, FL round 75
+client 0. Dice score:	0.7104304432868958
+client 1. Dice score:	0.6862260103225708
+client 2. Dice score:	0.5932086706161499
+client 3. Dice score:	0.6833979487419128
+AL round 3, FL round 80
+client 0. Dice score:	0.7085965275764465
+client 1. Dice score:	0.6826467514038086
+client 2. Dice score:	0.601450502872467
+client 3. Dice score:	0.6929963231086731
+AL round 3, FL round 85
+client 0. Dice score:	0.7072635293006897
+client 1. Dice score:	0.6800401210784912
+client 2. Dice score:	0.6036316752433777
+client 3. Dice score:	0.6892362833023071
+AL round 3, FL round 90
+client 0. Dice score:	0.7071555256843567
+client 1. Dice score:	0.6670826077461243
+client 2. Dice score:	0.5992505550384521
+client 3. Dice score:	0.6841267347335815
+AL round 3, FL round 95
+client 0. Dice score:	0.708675742149353
+client 1. Dice score:	0.6617392301559448
+client 2. Dice score:	0.6084050536155701
+client 3. Dice score:	0.6864607334136963
+AL round 3, FL round 100
+client 0. Dice score:	0.7082237601280212
+client 1. Dice score:	0.6764023303985596
+client 2. Dice score:	0.6030157208442688
+client 3. Dice score:	0.6800925731658936
+train num: [200, 134, 200, 200]
+AL round 4, FL round 5
+client 0. Dice score:	0.5639840364456177
+client 1. Dice score:	0.24317152798175812
+client 2. Dice score:	0.3560735285282135
+client 3. Dice score:	0.427760511636734
+AL round 4, FL round 10
+client 0. Dice score:	0.6164054870605469
+client 1. Dice score:	0.3580724000930786
+client 2. Dice score:	0.43687042593955994
+client 3. Dice score:	0.4980565905570984
+AL round 4, FL round 15
+client 0. Dice score:	0.6657490134239197
+client 1. Dice score:	0.3553350865840912
+client 2. Dice score:	0.434110164642334
+client 3. Dice score:	0.441933810710907
+AL round 4, FL round 20
+client 0. Dice score:	0.7041767835617065
+client 1. Dice score:	0.3451350927352905
+client 2. Dice score:	0.47402963042259216
+client 3. Dice score:	0.525544285774231
+AL round 4, FL round 25
+client 0. Dice score:	0.7295226454734802
+client 1. Dice score:	0.48655569553375244
+client 2. Dice score:	0.535128116607666
+client 3. Dice score:	0.5969643592834473
+AL round 4, FL round 30
+client 0. Dice score:	0.7177032232284546
+client 1. Dice score:	0.46646296977996826
+client 2. Dice score:	0.5462448596954346
+client 3. Dice score:	0.613127589225769
+AL round 4, FL round 35
+client 0. Dice score:	0.7229700088500977
+client 1. Dice score:	0.5521458387374878
+client 2. Dice score:	0.5696342587471008
+client 3. Dice score:	0.6514933109283447
+AL round 4, FL round 40
+client 0. Dice score:	0.724321722984314
+client 1. Dice score:	0.5576383471488953
+client 2. Dice score:	0.6172518730163574
+client 3. Dice score:	0.6754065155982971
+AL round 4, FL round 45
+client 0. Dice score:	0.7298059463500977
+client 1. Dice score:	0.5037091970443726
+client 2. Dice score:	0.568215548992157
+client 3. Dice score:	0.6589233875274658
+AL round 4, FL round 50
+client 0. Dice score:	0.7354653477668762
+client 1. Dice score:	0.6101284027099609
+client 2. Dice score:	0.6295114159584045
+client 3. Dice score:	0.7052798271179199
+AL round 4, FL round 55
+client 0. Dice score:	0.7371575236320496
+client 1. Dice score:	0.5914591550827026
+client 2. Dice score:	0.6377474665641785
+client 3. Dice score:	0.7058523297309875
+AL round 4, FL round 60
+client 0. Dice score:	0.733531653881073
+client 1. Dice score:	0.5952948331832886
+client 2. Dice score:	0.6371582746505737
+client 3. Dice score:	0.7037240266799927
+AL round 4, FL round 65
+client 0. Dice score:	0.7321525812149048
+client 1. Dice score:	0.5926492214202881
+client 2. Dice score:	0.6381268501281738
+client 3. Dice score:	0.7016279697418213
+AL round 4, FL round 70
+client 0. Dice score:	0.7290108799934387
+client 1. Dice score:	0.588498592376709
+client 2. Dice score:	0.6354096531867981
+client 3. Dice score:	0.6993323564529419
+AL round 4, FL round 75
+client 0. Dice score:	0.7274562120437622
+client 1. Dice score:	0.5716617107391357
+client 2. Dice score:	0.6359004378318787
+client 3. Dice score:	0.6901546120643616
+AL round 4, FL round 80
+client 0. Dice score:	0.7287415862083435
+client 1. Dice score:	0.569145679473877
+client 2. Dice score:	0.6322869658470154
+client 3. Dice score:	0.6880660057067871
+AL round 4, FL round 85
+client 0. Dice score:	0.7264646887779236
+client 1. Dice score:	0.5727803707122803
+client 2. Dice score:	0.6348541378974915
+client 3. Dice score:	0.687510073184967
+AL round 4, FL round 90
+client 0. Dice score:	0.7247394919395447
+client 1. Dice score:	0.5738908052444458
+client 2. Dice score:	0.6329166889190674
+client 3. Dice score:	0.6897847652435303
+AL round 4, FL round 95
+client 0. Dice score:	0.721739649772644
+client 1. Dice score:	0.5710927248001099
+client 2. Dice score:	0.629652202129364
+client 3. Dice score:	0.6817492842674255
+AL round 4, FL round 100
+client 0. Dice score:	0.7197403907775879
+client 1. Dice score:	0.5728226900100708
+client 2. Dice score:	0.6295784115791321
+client 3. Dice score:	0.6812851428985596
+train num: [200, 134, 200, 200]
+AL round 5, FL round 5
+client 0. Dice score:	0.5532723069190979
+client 1. Dice score:	0.21641646325588226
+client 2. Dice score:	0.31913262605667114
+client 3. Dice score:	0.4388626217842102
+AL round 5, FL round 10
+client 0. Dice score:	0.5886897444725037
+client 1. Dice score:	0.2737172245979309
+client 2. Dice score:	0.3756856918334961
+client 3. Dice score:	0.44066062569618225
+AL round 5, FL round 15
+client 0. Dice score:	0.6371936202049255
+client 1. Dice score:	0.2831001877784729
+client 2. Dice score:	0.4172983169555664
+client 3. Dice score:	0.4348379373550415
+AL round 5, FL round 20
+client 0. Dice score:	0.6752530932426453
+client 1. Dice score:	0.4091572165489197
+client 2. Dice score:	0.5036976933479309
+client 3. Dice score:	0.5931496024131775
+AL round 5, FL round 25
+client 0. Dice score:	0.7176747918128967
+client 1. Dice score:	0.40265780687332153
+client 2. Dice score:	0.5402865409851074
+client 3. Dice score:	0.6067721247673035
+AL round 5, FL round 30
+client 0. Dice score:	0.7247029542922974
+client 1. Dice score:	0.49221542477607727
+client 2. Dice score:	0.5640879273414612
+client 3. Dice score:	0.649284303188324
+AL round 5, FL round 35
+client 0. Dice score:	0.7306492924690247
+client 1. Dice score:	0.4151586890220642
+client 2. Dice score:	0.5297443866729736
+client 3. Dice score:	0.5879909992218018
+AL round 5, FL round 40
+client 0. Dice score:	0.7157291769981384
+client 1. Dice score:	0.49268820881843567
+client 2. Dice score:	0.6114218235015869
+client 3. Dice score:	0.6922449469566345
+AL round 5, FL round 45
+client 0. Dice score:	0.7261542677879333
+client 1. Dice score:	0.5536428689956665
+client 2. Dice score:	0.6037276387214661
+client 3. Dice score:	0.7036353945732117
+AL round 5, FL round 50
+client 0. Dice score:	0.7414804697036743
+client 1. Dice score:	0.4392608404159546
+client 2. Dice score:	0.5666492581367493
+client 3. Dice score:	0.6467140316963196
+AL round 5, FL round 55
+client 0. Dice score:	0.7242415547370911
+client 1. Dice score:	0.593698263168335
+client 2. Dice score:	0.6249573230743408
+client 3. Dice score:	0.6959211826324463
+AL round 5, FL round 60
+client 0. Dice score:	0.7256751656532288
+client 1. Dice score:	0.5830589532852173
+client 2. Dice score:	0.6302374005317688
+client 3. Dice score:	0.6926792860031128
+AL round 5, FL round 65
+client 0. Dice score:	0.7233242392539978
+client 1. Dice score:	0.5740295648574829
+client 2. Dice score:	0.6308236122131348
+client 3. Dice score:	0.682709813117981
+AL round 5, FL round 70
+client 0. Dice score:	0.7228227853775024
+client 1. Dice score:	0.5906755924224854
+client 2. Dice score:	0.6338004469871521
+client 3. Dice score:	0.689117968082428
+AL round 5, FL round 75
+client 0. Dice score:	0.7187370657920837
+client 1. Dice score:	0.5717117190361023
+client 2. Dice score:	0.6339678764343262
+client 3. Dice score:	0.6776831746101379
+AL round 5, FL round 80
+client 0. Dice score:	0.7190955877304077
+client 1. Dice score:	0.5819902420043945
+client 2. Dice score:	0.635343074798584
+client 3. Dice score:	0.6821200251579285
+AL round 5, FL round 85
+client 0. Dice score:	0.7155290246009827
+client 1. Dice score:	0.5897145867347717
+client 2. Dice score:	0.63456791639328
+client 3. Dice score:	0.683226466178894
+AL round 5, FL round 90
+client 0. Dice score:	0.7143516540527344
+client 1. Dice score:	0.6037403345108032
+client 2. Dice score:	0.6402842402458191
+client 3. Dice score:	0.6851359605789185
+AL round 5, FL round 95
+client 0. Dice score:	0.7200309634208679
+client 1. Dice score:	0.6034245491027832
+client 2. Dice score:	0.6412376165390015
+client 3. Dice score:	0.6845261454582214
+AL round 5, FL round 100
+client 0. Dice score:	0.7183329463005066
+client 1. Dice score:	0.6025135517120361
+client 2. Dice score:	0.6356140971183777
+client 3. Dice score:	0.6785588264465332
+train num: [200, 134, 200, 200]
+AL round 6, FL round 5
+client 0. Dice score:	0.5469598174095154
+client 1. Dice score:	0.24547386169433594
+client 2. Dice score:	0.3579598367214203
+client 3. Dice score:	0.4430038630962372
+AL round 6, FL round 10
+client 0. Dice score:	0.6059832572937012
+client 1. Dice score:	0.2240612655878067
+client 2. Dice score:	0.36540213227272034
+client 3. Dice score:	0.4283144772052765
+AL round 6, FL round 15
+client 0. Dice score:	0.6457514762878418
+client 1. Dice score:	0.31788015365600586
+client 2. Dice score:	0.4611065685749054
+client 3. Dice score:	0.507911741733551
+AL round 6, FL round 20
+client 0. Dice score:	0.6614998579025269
+client 1. Dice score:	0.3235093653202057
+client 2. Dice score:	0.46305370330810547
+client 3. Dice score:	0.5193725824356079
+AL round 6, FL round 25
+client 0. Dice score:	0.6892625093460083
+client 1. Dice score:	0.35615670680999756
+client 2. Dice score:	0.521090030670166
+client 3. Dice score:	0.5711919069290161
+AL round 6, FL round 30
+client 0. Dice score:	0.7139962911605835
+client 1. Dice score:	0.37534409761428833
+client 2. Dice score:	0.5299826264381409
+client 3. Dice score:	0.6014410257339478
+AL round 6, FL round 35
+client 0. Dice score:	0.7097662091255188
+client 1. Dice score:	0.3569835126399994
+client 2. Dice score:	0.5652746558189392
+client 3. Dice score:	0.6670025587081909
+AL round 6, FL round 40
+client 0. Dice score:	0.7192015647888184
+client 1. Dice score:	0.3990505337715149
+client 2. Dice score:	0.5761435627937317
+client 3. Dice score:	0.6599118709564209
+AL round 6, FL round 45
+client 0. Dice score:	0.714663565158844
+client 1. Dice score:	0.42231640219688416
+client 2. Dice score:	0.5676316618919373
+client 3. Dice score:	0.6249585151672363
+AL round 6, FL round 50
+client 0. Dice score:	0.7348407506942749
+client 1. Dice score:	0.5375392436981201
+client 2. Dice score:	0.6178509593009949
+client 3. Dice score:	0.71285080909729
+AL round 6, FL round 55
+client 0. Dice score:	0.7209115624427795
+client 1. Dice score:	0.5194262266159058
+client 2. Dice score:	0.6449635028839111
+client 3. Dice score:	0.6990461945533752
+AL round 6, FL round 60
+client 0. Dice score:	0.7223138809204102
+client 1. Dice score:	0.4896472692489624
+client 2. Dice score:	0.639010488986969
+client 3. Dice score:	0.6871386170387268
+AL round 6, FL round 65
+client 0. Dice score:	0.7210856676101685
+client 1. Dice score:	0.5068436861038208
+client 2. Dice score:	0.6386364102363586
+client 3. Dice score:	0.6841583251953125
+AL round 6, FL round 70
+client 0. Dice score:	0.7209120392799377
+client 1. Dice score:	0.4965500831604004
+client 2. Dice score:	0.6339152455329895
+client 3. Dice score:	0.6767615079879761
+AL round 6, FL round 75
+client 0. Dice score:	0.7187989950180054
+client 1. Dice score:	0.4936002492904663
+client 2. Dice score:	0.627729594707489
+client 3. Dice score:	0.6753738522529602
+AL round 6, FL round 80
+client 0. Dice score:	0.7193990349769592
+client 1. Dice score:	0.5143852233886719
+client 2. Dice score:	0.6275205016136169
+client 3. Dice score:	0.6780843734741211
+AL round 6, FL round 85
+client 0. Dice score:	0.7150121927261353
+client 1. Dice score:	0.516431987285614
+client 2. Dice score:	0.6249721050262451
+client 3. Dice score:	0.6823053956031799
+AL round 6, FL round 90
+client 0. Dice score:	0.7140421271324158
+client 1. Dice score:	0.5480628609657288
+client 2. Dice score:	0.6229708790779114
+client 3. Dice score:	0.6790382266044617
+AL round 6, FL round 95
+client 0. Dice score:	0.7151159048080444
+client 1. Dice score:	0.5499066114425659
+client 2. Dice score:	0.6245418190956116
+client 3. Dice score:	0.68125319480896
+AL round 6, FL round 100
+client 0. Dice score:	0.716162383556366
+client 1. Dice score:	0.5562852621078491
+client 2. Dice score:	0.6188547015190125
+client 3. Dice score:	0.6825435757637024
+train num: [200, 134, 200, 200]
+AL round 7, FL round 5
+client 0. Dice score:	0.5487299561500549
+client 1. Dice score:	0.20936541259288788
+client 2. Dice score:	0.34871724247932434
+client 3. Dice score:	0.42554086446762085
+AL round 7, FL round 10
+client 0. Dice score:	0.5886116027832031
+client 1. Dice score:	0.22841526567935944
+client 2. Dice score:	0.3847927749156952
+client 3. Dice score:	0.437497615814209
+AL round 7, FL round 15
+client 0. Dice score:	0.6631646752357483
+client 1. Dice score:	0.33386337757110596
+client 2. Dice score:	0.5011361241340637
+client 3. Dice score:	0.565761923789978
+AL round 7, FL round 20
+client 0. Dice score:	0.6846640706062317
+client 1. Dice score:	0.3442254662513733
+client 2. Dice score:	0.4850798547267914
+client 3. Dice score:	0.592943012714386
+AL round 7, FL round 25
+client 0. Dice score:	0.7115947008132935
+client 1. Dice score:	0.48628079891204834
+client 2. Dice score:	0.5439069271087646
+client 3. Dice score:	0.6890677213668823
+AL round 7, FL round 30
+client 0. Dice score:	0.6955223083496094
+client 1. Dice score:	0.44263285398483276
+client 2. Dice score:	0.52680504322052
+client 3. Dice score:	0.6506330966949463
+AL round 7, FL round 35
+client 0. Dice score:	0.7091851234436035
+client 1. Dice score:	0.5387758016586304
+client 2. Dice score:	0.5838925242424011
+client 3. Dice score:	0.6923911571502686
+AL round 7, FL round 40
+client 0. Dice score:	0.717681348323822
+client 1. Dice score:	0.5188010334968567
+client 2. Dice score:	0.5513654947280884
+client 3. Dice score:	0.6782470345497131
+AL round 7, FL round 45
+client 0. Dice score:	0.7006804347038269
+client 1. Dice score:	0.3977731764316559
+client 2. Dice score:	0.5583108067512512
+client 3. Dice score:	0.6726434826850891
+AL round 7, FL round 50
+client 0. Dice score:	0.737601637840271
+client 1. Dice score:	0.474793016910553
+client 2. Dice score:	0.5921552181243896
+client 3. Dice score:	0.6716024875640869
+AL round 7, FL round 55
+client 0. Dice score:	0.7223378419876099
+client 1. Dice score:	0.5753324627876282
+client 2. Dice score:	0.6034392714500427
+client 3. Dice score:	0.7205524444580078
+AL round 7, FL round 60
+client 0. Dice score:	0.7212938666343689
+client 1. Dice score:	0.5767084360122681
+client 2. Dice score:	0.5990715026855469
+client 3. Dice score:	0.7162536978721619
+AL round 7, FL round 65
+client 0. Dice score:	0.7191534638404846
+client 1. Dice score:	0.57850182056427
+client 2. Dice score:	0.6001914143562317
+client 3. Dice score:	0.7188296318054199
+AL round 7, FL round 70
+client 0. Dice score:	0.7172426581382751
+client 1. Dice score:	0.5965032577514648
+client 2. Dice score:	0.5940086245536804
+client 3. Dice score:	0.7167720198631287
+AL round 7, FL round 75
+client 0. Dice score:	0.7155358195304871
+client 1. Dice score:	0.5922485589981079
+client 2. Dice score:	0.5882551670074463
+client 3. Dice score:	0.7168432474136353
+AL round 7, FL round 80
+client 0. Dice score:	0.7150092720985413
+client 1. Dice score:	0.5987943410873413
+client 2. Dice score:	0.589117705821991
+client 3. Dice score:	0.7209938168525696
+AL round 7, FL round 85
+client 0. Dice score:	0.7146384119987488
+client 1. Dice score:	0.6144282221794128
+client 2. Dice score:	0.5899066925048828
+client 3. Dice score:	0.7225062847137451
+AL round 7, FL round 90
+client 0. Dice score:	0.7175408005714417
+client 1. Dice score:	0.6273008584976196
+client 2. Dice score:	0.5894225239753723
+client 3. Dice score:	0.7272428274154663
+AL round 7, FL round 95
+client 0. Dice score:	0.7147930860519409
+client 1. Dice score:	0.634147584438324
+client 2. Dice score:	0.586742103099823
+client 3. Dice score:	0.7246414422988892
+AL round 7, FL round 100
+client 0. Dice score:	0.7123188376426697
+client 1. Dice score:	0.6277265548706055
+client 2. Dice score:	0.5825023651123047
+client 3. Dice score:	0.7236023545265198
+train num: [200, 134, 200, 200]
+AL round 8, FL round 5
+client 0. Dice score:	0.5660212635993958
+client 1. Dice score:	0.290507048368454
+client 2. Dice score:	0.3670027256011963
+client 3. Dice score:	0.48090773820877075
+AL round 8, FL round 10
+client 0. Dice score:	0.6375159025192261
+client 1. Dice score:	0.33462387323379517
+client 2. Dice score:	0.45032069087028503
+client 3. Dice score:	0.4943254292011261
+AL round 8, FL round 15
+client 0. Dice score:	0.6836214661598206
+client 1. Dice score:	0.39900171756744385
+client 2. Dice score:	0.5003528594970703
+client 3. Dice score:	0.5051677823066711
+AL round 8, FL round 20
+client 0. Dice score:	0.7012853622436523
+client 1. Dice score:	0.46966731548309326
+client 2. Dice score:	0.572056233882904
+client 3. Dice score:	0.5834106802940369
+AL round 8, FL round 25
+client 0. Dice score:	0.7159010767936707
+client 1. Dice score:	0.5070613622665405
+client 2. Dice score:	0.5755811333656311
+client 3. Dice score:	0.6126236915588379
+AL round 8, FL round 30
+client 0. Dice score:	0.7108436226844788
+client 1. Dice score:	0.5492733120918274
+client 2. Dice score:	0.5806801319122314
+client 3. Dice score:	0.6360228061676025
+AL round 8, FL round 35
+client 0. Dice score:	0.7267712354660034
+client 1. Dice score:	0.5522075295448303
+client 2. Dice score:	0.6070346832275391
+client 3. Dice score:	0.6691959500312805
+AL round 8, FL round 40
+client 0. Dice score:	0.7303258180618286
+client 1. Dice score:	0.6153970956802368
+client 2. Dice score:	0.6137233376502991
+client 3. Dice score:	0.6518735885620117
+AL round 8, FL round 45
+client 0. Dice score:	0.7251396775245667
+client 1. Dice score:	0.5815083384513855
+client 2. Dice score:	0.6181543469429016
+client 3. Dice score:	0.6762257814407349
+AL round 8, FL round 50
+client 0. Dice score:	0.732381284236908
+client 1. Dice score:	0.5776442885398865
+client 2. Dice score:	0.6222770810127258
+client 3. Dice score:	0.6261152625083923
+AL round 8, FL round 55
+client 0. Dice score:	0.7359321713447571
+client 1. Dice score:	0.6050125956535339
+client 2. Dice score:	0.6412091851234436
+client 3. Dice score:	0.6628861427307129
+AL round 8, FL round 60
+client 0. Dice score:	0.734272301197052
+client 1. Dice score:	0.6025511622428894
+client 2. Dice score:	0.638239324092865
+client 3. Dice score:	0.6603255271911621
+AL round 8, FL round 65
+client 0. Dice score:	0.7346783876419067
+client 1. Dice score:	0.6211427450180054
+client 2. Dice score:	0.6460530161857605
+client 3. Dice score:	0.6787109375
+AL round 8, FL round 70
+client 0. Dice score:	0.7324578166007996
+client 1. Dice score:	0.608434796333313
+client 2. Dice score:	0.6432557702064514
+client 3. Dice score:	0.6587706804275513
+AL round 8, FL round 75
+client 0. Dice score:	0.731862485408783
+client 1. Dice score:	0.6142937541007996
+client 2. Dice score:	0.6435723304748535
+client 3. Dice score:	0.6603481769561768
+AL round 8, FL round 80
+client 0. Dice score:	0.7307584881782532
+client 1. Dice score:	0.6091488599777222
+client 2. Dice score:	0.6402849555015564
+client 3. Dice score:	0.6570342183113098
+AL round 8, FL round 85
+client 0. Dice score:	0.7309824824333191
+client 1. Dice score:	0.6103712320327759
+client 2. Dice score:	0.6418341994285583
+client 3. Dice score:	0.65997713804245
+AL round 8, FL round 90
+client 0. Dice score:	0.7271584868431091
+client 1. Dice score:	0.6167207360267639
+client 2. Dice score:	0.6447858214378357
+client 3. Dice score:	0.6651409268379211
+AL round 8, FL round 95
+client 0. Dice score:	0.7249584794044495
+client 1. Dice score:	0.6100035905838013
+client 2. Dice score:	0.6398529410362244
+client 3. Dice score:	0.6579237580299377
+AL round 8, FL round 100
+client 0. Dice score:	0.728342592716217
+client 1. Dice score:	0.6186586022377014
+client 2. Dice score:	0.6476432681083679
+client 3. Dice score:	0.6644073128700256
+train num: [200, 134, 200, 200]
+AL round 9, FL round 5
+client 0. Dice score:	0.515076756477356
+client 1. Dice score:	0.20912373065948486
+client 2. Dice score:	0.316027969121933
+client 3. Dice score:	0.44667327404022217
+AL round 9, FL round 10
+client 0. Dice score:	0.6032112836837769
+client 1. Dice score:	0.26799386739730835
+client 2. Dice score:	0.39047953486442566
+client 3. Dice score:	0.478013813495636
+AL round 9, FL round 15
+client 0. Dice score:	0.6463452577590942
+client 1. Dice score:	0.3244171738624573
+client 2. Dice score:	0.4399302005767822
+client 3. Dice score:	0.4950929284095764
+AL round 9, FL round 20
+client 0. Dice score:	0.6897416710853577
+client 1. Dice score:	0.4086359739303589
+client 2. Dice score:	0.5179223418235779
+client 3. Dice score:	0.5916036367416382
+AL round 9, FL round 25
+client 0. Dice score:	0.6437476277351379
+client 1. Dice score:	0.47467920184135437
+client 2. Dice score:	0.5372554659843445
+client 3. Dice score:	0.6200686693191528
+AL round 9, FL round 30
+client 0. Dice score:	0.68313068151474
+client 1. Dice score:	0.554595947265625
+client 2. Dice score:	0.5495787262916565
+client 3. Dice score:	0.642317533493042
+AL round 9, FL round 35
+client 0. Dice score:	0.7174369692802429
+client 1. Dice score:	0.4933837056159973
+client 2. Dice score:	0.5626646876335144
+client 3. Dice score:	0.6613329648971558
+AL round 9, FL round 40
+client 0. Dice score:	0.7015377879142761
+client 1. Dice score:	0.5207332968711853
+client 2. Dice score:	0.5641605257987976
+client 3. Dice score:	0.6776475310325623
+AL round 9, FL round 45
+client 0. Dice score:	0.7150039672851562
+client 1. Dice score:	0.4884887933731079
+client 2. Dice score:	0.5422524809837341
+client 3. Dice score:	0.6256593465805054
+AL round 9, FL round 50
+client 0. Dice score:	0.7001778483390808
+client 1. Dice score:	0.5857638120651245
+client 2. Dice score:	0.6079245209693909
+client 3. Dice score:	0.7040095329284668
+AL round 9, FL round 55
+client 0. Dice score:	0.7325056791305542
+client 1. Dice score:	0.591650128364563
+client 2. Dice score:	0.6300278306007385
+client 3. Dice score:	0.6894934177398682
+AL round 9, FL round 60
+client 0. Dice score:	0.7346815466880798
+client 1. Dice score:	0.608056902885437
+client 2. Dice score:	0.630797803401947
+client 3. Dice score:	0.6838482618331909
+AL round 9, FL round 65
+client 0. Dice score:	0.7336438298225403
+client 1. Dice score:	0.6062945127487183
+client 2. Dice score:	0.628253161907196
+client 3. Dice score:	0.6813395023345947
+AL round 9, FL round 70
+client 0. Dice score:	0.7340027093887329
+client 1. Dice score:	0.6355321407318115
+client 2. Dice score:	0.6357153058052063
+client 3. Dice score:	0.6928398609161377
+AL round 9, FL round 75
+client 0. Dice score:	0.7323269844055176
+client 1. Dice score:	0.6337879300117493
+client 2. Dice score:	0.6387882232666016
+client 3. Dice score:	0.6973212957382202
+AL round 9, FL round 80
+client 0. Dice score:	0.7347784042358398
+client 1. Dice score:	0.6286060810089111
+client 2. Dice score:	0.638309895992279
+client 3. Dice score:	0.696439802646637
+AL round 9, FL round 85
+client 0. Dice score:	0.7318266034126282
+client 1. Dice score:	0.6294452548027039
+client 2. Dice score:	0.6380191445350647
+client 3. Dice score:	0.696488618850708
+AL round 9, FL round 90
+client 0. Dice score:	0.730042576789856
+client 1. Dice score:	0.6348325610160828
+client 2. Dice score:	0.6416489481925964
+client 3. Dice score:	0.7009005546569824
+AL round 9, FL round 95
+client 0. Dice score:	0.7314844131469727
+client 1. Dice score:	0.6414741277694702
+client 2. Dice score:	0.6411656737327576
+client 3. Dice score:	0.7026331424713135
+AL round 9, FL round 100
+client 0. Dice score:	0.7311774492263794
+client 1. Dice score:	0.6383553743362427
+client 2. Dice score:	0.6415552496910095
+client 3. Dice score:	0.7035917043685913
+train num: [200, 134, 200, 200]
+AL round 10, FL round 5
+client 0. Dice score:	0.5594991445541382
+client 1. Dice score:	0.22957785427570343
+client 2. Dice score:	0.34948232769966125
+client 3. Dice score:	0.3885148763656616
+AL round 10, FL round 10
+client 0. Dice score:	0.6225290298461914
+client 1. Dice score:	0.3222934603691101
+client 2. Dice score:	0.43110355734825134
+client 3. Dice score:	0.472202867269516
+AL round 10, FL round 15
+client 0. Dice score:	0.6608369946479797
+client 1. Dice score:	0.3243723213672638
+client 2. Dice score:	0.47094860672950745
+client 3. Dice score:	0.4540789723396301
+AL round 10, FL round 20
+client 0. Dice score:	0.7046722769737244
+client 1. Dice score:	0.4283894896507263
+client 2. Dice score:	0.5280736088752747
+client 3. Dice score:	0.543684184551239
+AL round 10, FL round 25
+client 0. Dice score:	0.7294943928718567
+client 1. Dice score:	0.43371903896331787
+client 2. Dice score:	0.5499672889709473
+client 3. Dice score:	0.606281578540802
+AL round 10, FL round 30
+client 0. Dice score:	0.7316456437110901
+client 1. Dice score:	0.5422732830047607
+client 2. Dice score:	0.5990970134735107
+client 3. Dice score:	0.6362293362617493
+AL round 10, FL round 35
+client 0. Dice score:	0.734218418598175
+client 1. Dice score:	0.5564789175987244
+client 2. Dice score:	0.5876421332359314
+client 3. Dice score:	0.638530433177948
+AL round 10, FL round 40
+client 0. Dice score:	0.731266975402832
+client 1. Dice score:	0.4762120842933655
+client 2. Dice score:	0.6151601672172546
+client 3. Dice score:	0.714130163192749
+AL round 10, FL round 45
+client 0. Dice score:	0.734956681728363
+client 1. Dice score:	0.5743904113769531
+client 2. Dice score:	0.6466875672340393
+client 3. Dice score:	0.6707460880279541
+AL round 10, FL round 50
+client 0. Dice score:	0.7495789527893066
+client 1. Dice score:	0.5287608504295349
+client 2. Dice score:	0.6400561928749084
+client 3. Dice score:	0.6583877205848694
+AL round 10, FL round 55
+client 0. Dice score:	0.7498308420181274
+client 1. Dice score:	0.5703166127204895
+client 2. Dice score:	0.6545644402503967
+client 3. Dice score:	0.6588938236236572
+AL round 10, FL round 60
+client 0. Dice score:	0.7503775358200073
+client 1. Dice score:	0.5984011888504028
+client 2. Dice score:	0.6567797660827637
+client 3. Dice score:	0.6642804145812988
+AL round 10, FL round 65
+client 0. Dice score:	0.7513212561607361
+client 1. Dice score:	0.6058723330497742
+client 2. Dice score:	0.6580166220664978
+client 3. Dice score:	0.6598049402236938
+AL round 10, FL round 70
+client 0. Dice score:	0.7512943148612976
+client 1. Dice score:	0.6110634803771973
+client 2. Dice score:	0.6606245636940002
+client 3. Dice score:	0.6533927917480469
+AL round 10, FL round 75
+client 0. Dice score:	0.7478585243225098
+client 1. Dice score:	0.6162538528442383
+client 2. Dice score:	0.6611465811729431
+client 3. Dice score:	0.6616730690002441
+AL round 10, FL round 80
+client 0. Dice score:	0.7480128407478333
+client 1. Dice score:	0.6249191761016846
+client 2. Dice score:	0.6606026291847229
+client 3. Dice score:	0.6637428402900696
+AL round 10, FL round 85
+client 0. Dice score:	0.747897207736969
+client 1. Dice score:	0.6352033019065857
+client 2. Dice score:	0.6609684824943542
+client 3. Dice score:	0.6612749099731445
+AL round 10, FL round 90
+client 0. Dice score:	0.7486227750778198
+client 1. Dice score:	0.6269631385803223
+client 2. Dice score:	0.6605468392372131
+client 3. Dice score:	0.6588403582572937
+AL round 10, FL round 95
+client 0. Dice score:	0.7444749474525452
+client 1. Dice score:	0.628345251083374
+client 2. Dice score:	0.6598612666130066
+client 3. Dice score:	0.6543617844581604
+AL round 10, FL round 100
+client 0. Dice score:	0.7442557215690613
+client 1. Dice score:	0.6321583986282349
+client 2. Dice score:	0.6630750298500061
+client 3. Dice score:	0.6590073108673096
